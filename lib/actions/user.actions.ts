@@ -1,4 +1,3 @@
-"user server"
 "use server";
 
 import { revalidatePath } from "next/cache";
