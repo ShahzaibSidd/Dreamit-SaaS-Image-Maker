@@ -13,9 +13,9 @@ const Sidebar = () => {
 
   return (
     <aside className='sidebar'>
-      <div className='flex size-full flex-col gap-4'>
+      <div className='flex size-full flex-col gap-4 items-center'>
         <Link href="/" className='sidebar-logo'>
-          <Image src="/assets/images/logo-text.svg" alt="logo" width={180} height={28}/>
+          <Image src="/assets/images/dreamit-logo-text.svg" alt="logo" width={180} height={28}/>
         </Link>
 
         <nav className='sidebar-nav'>
@@ -26,14 +26,14 @@ const Sidebar = () => {
                 
                 return (
                   <li key={link.route} className={`sidebar-nav_element group 
-                  ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}>
+                  ${isActive ? 'bg-[#FBDFB4] text-[#FF9900]' : 'text-gray-700'}`}>
                     <Link className='sidebar-link' href={link.route}>
                       <Image 
                         src={link.icon} 
                         alt="logo"
                         width={24}
                         height={24}
-                        className={`${isActive && 'brightness-200'}`}/>
+                        className={`${isActive && 'filter invert-[74%] sepia-[35%] saturate-[7306%] hue-rotate[1deg] brightness-[140%] contrast-[104%];'}`}/>
                       {link.label}
                     </Link>
                   </li>
@@ -47,7 +47,7 @@ const Sidebar = () => {
                   
                   return (
                     <li key={link.route} className={`sidebar-nav_element group 
-                    ${isActive ? 'bg-purple-gradient text-white' : 'text-gray-700'}`}>
+                    ${isActive ? 'bg-orange-gradient text-white' : 'text-gray-700'}`}>
                       <Link className='sidebar-link' href={link.route}>
                         <Image 
                           src={link.icon} 
@@ -68,7 +68,7 @@ const Sidebar = () => {
           </SignedIn>
 
           <SignedOut>
-            <Button asChild className='button bg-purple-gradient bg-cover'>
+            <Button asChild className='button bg-orange-gradient bg-cover'>
               <Link href="/sign-in">Login</Link>
             </Button>
           </SignedOut>

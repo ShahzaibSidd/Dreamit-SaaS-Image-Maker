@@ -49,7 +49,7 @@ export const Collection = ({
   return (
     <>
       <div className="collection-heading">
-        <h2 className="h2-bold text-dark-600">Recent Edits</h2>
+        <h2 className="h2-bold text-dark-600">Newest Edits</h2>
         {hasSearch && <Search />}
       </div>
 
@@ -81,7 +81,7 @@ export const Collection = ({
             </p>
 
             <Button
-              className="button w-32 bg-purple-gradient bg-cover text-white"
+              className="button w-32 bg-orange-gradient bg-cover text-white"
               onClick={() => onPageChange("next")}
               disabled={Number(page) >= totalPages}
             >

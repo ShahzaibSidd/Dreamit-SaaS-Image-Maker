@@ -5,27 +5,27 @@ export const navLinks = [
     icon: "/assets/icons/home.svg",
   },
   {
-    label: "Image Restore",
+    label: "Image Restorer",
     route: "/transformations/add/restore",
     icon: "/assets/icons/image.svg",
   },
   {
-    label: "Generative Fill",
+    label: "Generative Filler",
     route: "/transformations/add/fill",
     icon: "/assets/icons/stars.svg",
   },
   {
-    label: "Object Remove",
+    label: "Object Remover",
     route: "/transformations/add/remove",
     icon: "/assets/icons/scan.svg",
   },
   {
-    label: "Object Recolor",
+    label: "Object Recolorer",
     route: "/transformations/add/recolor",
     icon: "/assets/icons/filter.svg",
   },
   {
-    label: "Background Remove",
+    label: "Background Remover",
     route: "/transformations/add/removeBackground",
     icon: "/assets/icons/camera.svg",
   },
