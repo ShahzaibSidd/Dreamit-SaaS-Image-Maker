@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <a href="https://github.com/ShahzaibSidd/Dreamit-SaaS-Image-Maker">
+        <img src="public\assets\images\dreamit-logo-text.svg" alt="Logo">
+    </a>
+</div>
 
-## Getting Started
+## About Dreamit
+Dreamit is a simple 'software as a service' web application that allows you to edit images using cloudinary's AI.
 
-First, run the development server:
+It has the ability to:
+* Resore images by removing noise and imperfections
+* Enhance an image's dimensions using AI outpainting
+* Identify and eliminate objects from images
+* Identify and recolor objects from the image
+* Remove the background of the image using AI
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Each image transformation uses a 'token'. More tokens can be purchased to create more transformations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Every user can see others' transformations on the main page! All transformations are uploaded to be seen publicly
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Built With
+[![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#)
+[![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](#)
+[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&logoColor=white)](#)
+[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white)](#)
+[![Stripe](https://img.shields.io/badge/Stripe-5851DD?logo=stripe&logoColor=fff)](#)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
+To get started, go to the [dreamit website](https://dreamit-kohl.vercel.app/) and sign up. Then, you will be able to access all past transformations, and even create your own!
 
-## Deploy on Vercel
+Access the different transformations through the sidebar on the left-hand side, and insert your image. Answer the form, and select "Save Image" to upload it.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The transformed image can also be downloaded by clicking the icon near the top-left of the image.

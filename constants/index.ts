@@ -152,8 +152,8 @@ export const transformationTypes = {
   },
   recolor: {
     type: "recolor",
-    title: "Object Recolor",
-    subTitle: "Identify and recolor objects from the image",
+    title: "Object Recolour",
+    subTitle: "Identify and recolour objects from the image",
     config: {
       recolor: { prompt: "", to: "", multiple: true },
     },
